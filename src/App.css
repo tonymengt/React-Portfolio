@@ -209,8 +209,8 @@ footer {
 
 .footer-container li {
   list-style: none;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 #GitHub {

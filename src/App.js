@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./App.css";
 import About from "./componets/About";
-import Nav from "./componets/Nav";
+import Header from "./componets/Header";
 import Project from "./componets/Project";
 import Contact from "./componets/Contact";
 import Resume from "./componets/Resume";
 import Footer from "./componets/Footer";
+
 
 function App() {
   const [tabs] = useState([
@@ -17,14 +18,12 @@ function App() {
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
 
   return (
-    <div className="App">
-      <header>
-        <Nav
+    <div>
+      <Header
           tabs={tabs}
           selectedTab={selectedTab}
           setSelectedTab={setSelectedTab}
-        ></Nav>
-      </header>
+      ></Header>
 
       <main>
         {selectedTab.name === "About" ? (
