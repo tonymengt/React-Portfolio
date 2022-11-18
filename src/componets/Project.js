@@ -7,8 +7,8 @@ const Project = () => {
         {name: 'ChoreBuddy', deployed: 'https://chorebuddy.herokuapp.com/', github: 'https://github.com/MrPhuzzles/ChoreBuddy'},
         {name: 'Weather-Dashboard', deployed: 'https://tonymengt.github.io/weather-dashboard/', github: 'https://github.com/tonymengt/weather-dashboard'},
         {name: 'Work-Scheduler', deployed: 'https://tonymengt.github.io/work-day-scheduler/', github: 'https://github.com/tonymengt/work-day-scheduler'},
-        // {name: 'Work-Scheduler1', deployed: 'https://tonymengt.github.io/work-day-scheduler/', github: 'https://github.com/tonymengt/work-day-scheduler'},
-        // {name: 'Work-Scheduler2', deployed: 'https://tonymengt.github.io/work-day-scheduler/', github: 'https://github.com/tonymengt/work-day-scheduler'},
+        {name: 'Placeholder-1', deployed: 'https://github.com/tonymengt', github: 'https://github.com/tonymengt'},
+        {name: 'Placeholder-2', deployed: 'https://github.com/tonymengt', github: 'https://github.com/tonymengt'},
     ]);
 
 
@@ -16,9 +16,9 @@ const Project = () => {
         <section className="projects-sec">
             <h2>My Recent <span>Works</span></h2>
             <div className="container">
-                <div className="row">
+                <div className="row d-flex flex-wrap">
                 {projects.map((images) => (
-                    <div className="col-4 projects" key={images.name}>
+                    <div className="pb-4 col-4 projects d-flex justify-content-center" key={images.name}>
                         <img src={require(`../assets/images/${images.name}.png`)}
                         alt={images.name}
                         className="sc"
@@ -32,6 +32,7 @@ const Project = () => {
                 ))}
                 </div>
             </div>
+            <div className="spaceholder">   </div>
         </section>
     )
 

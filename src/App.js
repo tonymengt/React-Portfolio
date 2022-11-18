@@ -18,7 +18,7 @@ function App() {
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
 
   return (
-    <div>
+    <div className="app">
       <Header
           tabs={tabs}
           selectedTab={selectedTab}
@@ -35,8 +35,9 @@ function App() {
         ) : (
           <Resume></Resume>
         )}
+        <Footer></Footer>
       </main>
-      <Footer></Footer>
+
     </div>
   );
 }

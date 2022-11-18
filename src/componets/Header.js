@@ -6,6 +6,7 @@ const Header = (props) => {
 
       return (
         <header>
+            <h1 id="name">Tony Meng</h1>
             <Nav
                 tabs={tabs}
                 selectedTab={selectedTab}

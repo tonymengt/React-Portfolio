@@ -12,8 +12,13 @@ const Footer = () => {
         <footer>
             <ul className="footer-container">
                 {links.map((social) => (
-                <li className="col-2" key={social.name}>
-                    <a href={social.src}><img id={social.name} src={require (`../assets/logo/${social.name}.png`)} alt={social.name}/></a>
+                <li className="social" key={social.name}>
+                    <a href={social.src}>
+                        <img 
+                        id={social.name} 
+                        src={require (`../assets/logo/${social.name}.png`)} 
+                        alt={social.name}/>
+                    </a>
                 </li>
                 ))}
             </ul>
