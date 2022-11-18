@@ -18,7 +18,19 @@ This is an updated version of my portfolio/catalogue of development work using R
 To view the application, you can either click on the deployed link in the read me or clone the Repo and type "npm i" in the root directory followed by npm start.
 
 ## Usage
+[Deployed-Link](https://tonymengt.github.io/React-Portfolio/)
 
+* Homepage:
+<br><img src="./src/assets/images/SC_About_Me.png" width ="300">
+
+* Portfolio:
+<br><img src="./src/assets/images/SC_Portfolio.png" width ="300">
+
+* Contact:
+<br><img src="./src/assets/images/SC_Contact.png" width ="300">
+
+* Resume:
+<br><img src="./src/assets/images/SC_Resume.png" width ="300">
 
 ## License
 This application has the following licenses:
