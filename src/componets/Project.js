@@ -5,7 +5,7 @@ const Project = () => {
     const [projects] = useState([
         {name: `Serf-Market`, deployed: 'https://serfs-market.herokuapp.com/', github: 'https://github.com/ShawnMaz/serfs-market'},
         {name: 'A-Night-In', deployed: 'https://raposamillar.github.io/A-Night-In/', github: 'https://github.com/raposamillar/A-Night-In'},
-        {name: 'ChoreBuddy', deployed: 'https://chorebuddy.herokuapp.com/', github: 'https://github.com/MrPhuzzles/ChoreBuddy'},
+        {name: 'ChoreBuddy', deployed: 'https://still-hamlet-82669.herokuapp.com/', github: 'https://github.com/MrPhuzzles/ChoreBuddy'},
         {name: 'Weather-Dashboard', deployed: 'https://tonymengt.github.io/weather-dashboard/', github: 'https://github.com/tonymengt/weather-dashboard'},
         {name: 'Work-Scheduler', deployed: 'https://tonymengt.github.io/work-day-scheduler/', github: 'https://github.com/tonymengt/work-day-scheduler'},
         {name: 'Placeholder-2', deployed: 'https://github.com/tonymengt', github: 'https://github.com/tonymengt'},
