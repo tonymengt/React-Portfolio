@@ -24,7 +24,6 @@ function App() {
           selectedTab={selectedTab}
           setSelectedTab={setSelectedTab}
       ></Header>
-
       <main>
         {selectedTab.name === "About" ? (
           <About></About>
@@ -35,7 +34,7 @@ function App() {
         ) : (
           <Resume></Resume>
         )}
-        <Footer></Footer>
+        <Footer />
       </main>
 
     </div>
