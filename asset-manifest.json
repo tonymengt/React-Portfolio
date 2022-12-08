@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.19921676.css",
-    "main.js": "/React-Portfolio/static/js/main.52f7bba3.js",
+    "main.css": "/React-Portfolio/static/css/main.ad718a3a.css",
+    "main.js": "/React-Portfolio/static/js/main.95da76f5.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Placeholder-1.png": "/React-Portfolio/static/media/Placeholder-1.5b4a9415c465af317675.png",
+    "static/media/SC_Resume.png": "/React-Portfolio/static/media/SC_Resume.0a09f4e4c19c0337795e.png",
+    "static/media/SC_About_Me.png": "/React-Portfolio/static/media/SC_About_Me.ab7ba7d051de9c421357.png",
     "static/media/Placeholder-2.png": "/React-Portfolio/static/media/Placeholder-2.8f7aff58445363439318.png",
+    "static/media/SC_Portfolio.png": "/React-Portfolio/static/media/SC_Portfolio.f361229bc6905e29a686.png",
+    "static/media/SC_Contact.png": "/React-Portfolio/static/media/SC_Contact.af7be9cb9593584f16d5.png",
     "static/media/A-Night-In.png": "/React-Portfolio/static/media/A-Night-In.4aa91785dc4695503c6a.png",
     "static/media/background.jpg": "/React-Portfolio/static/media/background.cfd6ae4216a1a66f4a78.jpg",
+    "static/media/Serf-Market.png": "/React-Portfolio/static/media/Serf-Market.3a58c8e9a57e34634c2a.png",
     "static/media/ChoreBuddy.png": "/React-Portfolio/static/media/ChoreBuddy.25626d53b95898f6cf18.png",
     "static/media/Weather-Dashboard.png": "/React-Portfolio/static/media/Weather-Dashboard.9df203f1eec46dda1f90.png",
     "static/media/Work-Scheduler.png": "/React-Portfolio/static/media/Work-Scheduler.ee23597428181d540597.png",
@@ -15,12 +20,12 @@
     "static/media/LinkedIn.png": "/React-Portfolio/static/media/LinkedIn.40048e8c4aa261771b21.png",
     "static/media/Stack.png": "/React-Portfolio/static/media/Stack.579cff432dec19bc3d23.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.19921676.css.map": "/React-Portfolio/static/css/main.19921676.css.map",
-    "main.52f7bba3.js.map": "/React-Portfolio/static/js/main.52f7bba3.js.map",
+    "main.ad718a3a.css.map": "/React-Portfolio/static/css/main.ad718a3a.css.map",
+    "main.95da76f5.js.map": "/React-Portfolio/static/js/main.95da76f5.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19921676.css",
-    "static/js/main.52f7bba3.js"
+    "static/css/main.ad718a3a.css",
+    "static/js/main.95da76f5.js"
   ]
 }
